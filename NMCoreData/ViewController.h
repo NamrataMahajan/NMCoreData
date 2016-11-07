@@ -7,9 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "AddViewController.h"
+#import "CustomTableViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+{
+    NSMutableArray *tvArray;
+    NSMutableArray *smartPhoneArray;
+    NSMutableArray *acArray;
+    UISegmentedControl *SegmentControl;
+    
 
+}
+- (IBAction)AddAction:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UITableView *tableVeiw;
+
+- (IBAction)SegmentFirst:(id)sender;
 
 @end
 

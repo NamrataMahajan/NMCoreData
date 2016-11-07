@@ -14,6 +14,14 @@
 		935CA77C1DCF7DA90066339C /* NMCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 935CA77A1DCF7DA90066339C /* NMCoreData.xcdatamodeld */; };
 		935CA77E1DCF7DA90066339C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 935CA77D1DCF7DA90066339C /* Assets.xcassets */; };
 		935CA7811DCF7DA90066339C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 935CA77F1DCF7DA90066339C /* LaunchScreen.storyboard */; };
+		935E8F051DCFB0B3006408CD /* SmartPone+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8EFA1DCFB0B3006408CD /* SmartPone+CoreDataProperties.m */; };
+		935E8F061DCFB0B3006408CD /* SmartPone.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8EFC1DCFB0B3006408CD /* SmartPone.m */; };
+		935E8F071DCFB0B3006408CD /* AC+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8EFE1DCFB0B3006408CD /* AC+CoreDataProperties.m */; };
+		935E8F081DCFB0B3006408CD /* AC.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8F001DCFB0B3006408CD /* AC.m */; };
+		935E8F091DCFB0B3006408CD /* TV+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8F021DCFB0B3006408CD /* TV+CoreDataProperties.m */; };
+		935E8F0A1DCFB0B3006408CD /* TV.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8F041DCFB0B3006408CD /* TV.m */; };
+		935E8F0D1DCFB725006408CD /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8F0C1DCFB725006408CD /* CustomTableViewCell.m */; };
+		935E8F101DCFB757006408CD /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 935E8F0F1DCFB757006408CD /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,22 @@
 		935CA77D1DCF7DA90066339C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		935CA7801DCF7DA90066339C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		935CA7821DCF7DA90066339C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		935E8EF91DCFB0B3006408CD /* SmartPone+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SmartPone+CoreDataProperties.h"; sourceTree = "<group>"; };
+		935E8EFA1DCFB0B3006408CD /* SmartPone+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SmartPone+CoreDataProperties.m"; sourceTree = "<group>"; };
+		935E8EFB1DCFB0B3006408CD /* SmartPone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartPone.h; sourceTree = "<group>"; };
+		935E8EFC1DCFB0B3006408CD /* SmartPone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartPone.m; sourceTree = "<group>"; };
+		935E8EFD1DCFB0B3006408CD /* AC+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AC+CoreDataProperties.h"; sourceTree = "<group>"; };
+		935E8EFE1DCFB0B3006408CD /* AC+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AC+CoreDataProperties.m"; sourceTree = "<group>"; };
+		935E8EFF1DCFB0B3006408CD /* AC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AC.h; sourceTree = "<group>"; };
+		935E8F001DCFB0B3006408CD /* AC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AC.m; sourceTree = "<group>"; };
+		935E8F011DCFB0B3006408CD /* TV+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TV+CoreDataProperties.h"; sourceTree = "<group>"; };
+		935E8F021DCFB0B3006408CD /* TV+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TV+CoreDataProperties.m"; sourceTree = "<group>"; };
+		935E8F031DCFB0B3006408CD /* TV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TV.h; sourceTree = "<group>"; };
+		935E8F041DCFB0B3006408CD /* TV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TV.m; sourceTree = "<group>"; };
+		935E8F0B1DCFB725006408CD /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		935E8F0C1DCFB725006408CD /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		935E8F0E1DCFB757006408CD /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		935E8F0F1DCFB757006408CD /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +88,27 @@
 				935CA7721DCF7DA90066339C /* AppDelegate.m */,
 				935CA7741DCF7DA90066339C /* ViewController.h */,
 				935CA7751DCF7DA90066339C /* ViewController.m */,
+				935E8F0E1DCFB757006408CD /* AddViewController.h */,
+				935E8F0F1DCFB757006408CD /* AddViewController.m */,
+				935E8F0B1DCFB725006408CD /* CustomTableViewCell.h */,
+				935E8F0C1DCFB725006408CD /* CustomTableViewCell.m */,
 				935CA7771DCF7DA90066339C /* Main.storyboard */,
 				935CA77D1DCF7DA90066339C /* Assets.xcassets */,
 				935CA77F1DCF7DA90066339C /* LaunchScreen.storyboard */,
 				935CA7821DCF7DA90066339C /* Info.plist */,
 				935CA77A1DCF7DA90066339C /* NMCoreData.xcdatamodeld */,
+				935E8EF91DCFB0B3006408CD /* SmartPone+CoreDataProperties.h */,
+				935E8EFA1DCFB0B3006408CD /* SmartPone+CoreDataProperties.m */,
+				935E8EFB1DCFB0B3006408CD /* SmartPone.h */,
+				935E8EFC1DCFB0B3006408CD /* SmartPone.m */,
+				935E8EFD1DCFB0B3006408CD /* AC+CoreDataProperties.h */,
+				935E8EFE1DCFB0B3006408CD /* AC+CoreDataProperties.m */,
+				935E8EFF1DCFB0B3006408CD /* AC.h */,
+				935E8F001DCFB0B3006408CD /* AC.m */,
+				935E8F011DCFB0B3006408CD /* TV+CoreDataProperties.h */,
+				935E8F021DCFB0B3006408CD /* TV+CoreDataProperties.m */,
+				935E8F031DCFB0B3006408CD /* TV.h */,
+				935E8F041DCFB0B3006408CD /* TV.m */,
 				935CA76E1DCF7DA90066339C /* Supporting Files */,
 			);
 			path = NMCoreData;
@@ -152,10 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				935E8F0A1DCFB0B3006408CD /* TV.m in Sources */,
+				935E8F0D1DCFB725006408CD /* CustomTableViewCell.m in Sources */,
+				935E8F101DCFB757006408CD /* AddViewController.m in Sources */,
+				935E8F071DCFB0B3006408CD /* AC+CoreDataProperties.m in Sources */,
+				935E8F051DCFB0B3006408CD /* SmartPone+CoreDataProperties.m in Sources */,
+				935E8F081DCFB0B3006408CD /* AC.m in Sources */,
 				935CA7761DCF7DA90066339C /* ViewController.m in Sources */,
+				935E8F091DCFB0B3006408CD /* TV+CoreDataProperties.m in Sources */,
 				935CA77C1DCF7DA90066339C /* NMCoreData.xcdatamodeld in Sources */,
 				935CA7731DCF7DA90066339C /* AppDelegate.m in Sources */,
 				935CA7701DCF7DA90066339C /* main.m in Sources */,
+				935E8F061DCFB0B3006408CD /* SmartPone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +354,7 @@
 				935CA7871DCF7DA90066339C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
